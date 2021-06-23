@@ -68,10 +68,7 @@ class _UserPageState extends State<UserPage> {
               valueApplication,
               kUrlApplication,
             );
-            var textResultTotalBalance = num.parse((totalBalance == null
-                    ? balance.toStringAsFixed(2)
-                    : totalBalance?.toStringAsFixed(2))
-                .toString());
+         
             return Scaffold(
               body: SafeArea(
                   child: Container(
